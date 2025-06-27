@@ -1,0 +1,20 @@
+{
+    "name": "jefftan/ad-task-3",
+    "description": "A PHP project with PostgreSQL and MongoDB using Docker",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "mongodb/mongodb": "^1.17"
+    },
+    "authors": [
+        {
+            "name": "Jefferson Tan",
+            "email": "202311579@fit.edu.ph"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "components/"
+        }
+    }
+}
